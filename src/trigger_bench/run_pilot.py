@@ -32,8 +32,13 @@ def main():
     ap.add_argument("--n-core", type=int, default=16)
     ap.add_argument("--n-noop", type=int, default=4)
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--judge-only", action="store_true",
+                    help="저장된 raw_results.json으로 5단계(judge)부터 재개")
     args = ap.parse_args()
     os.makedirs(f"{DATA}/logs", exist_ok=True)
+
+    if args.judge_only:
+        return _judge_only()
 
     # 1) instance + GT
     insts, cov = sample(n_core=args.n_core, n_noop=args.n_noop, seed=42)
@@ -107,9 +112,37 @@ def main():
     print(f"보고서: {os.path.normpath(REPORT)}")
 
 
+def _judge_only():
+    """1~4단계 산출물(data/pilot/)을 로드해 judge+보고서만 재실행."""
+    from core import Instance
+    from judge import aggregate_judge, judge_run
+    from llm import AGENT_MODEL
+    insts = [Instance.from_dict(d) for d in json.load(open(f"{DATA}/instances.json"))]
+    inst_by_id = {i.iid: i for i in insts}
+    raw = json.load(open(f"{DATA}/raw_results.json"))
+    probe_res = json.load(open(f"{DATA}/probe.json")) if os.path.exists(f"{DATA}/probe.json") else {}
+    log_summary = json.load(open(f"{DATA}/log_summary.json"))
+
+    rows = [score_run(inst_by_id[k.split("/")[0]], k.split("/")[1], v) for k, v in raw.items()]
+    a_metrics = aggregate(rows)
+    judge_rows = []
+    for n_done, (k, v) in enumerate(raw.items(), 1):
+        iid, pid = k.split("/")
+        judge_rows.append(judge_run(inst_by_id[iid], pid, v))
+        sys.stdout.write(f"\r[judge] {n_done}/{len(raw)}")
+    print()
+    b_metrics = aggregate_judge(judge_rows)
+    json.dump([r for rows_ in judge_rows for r in rows_],
+              open(f"{DATA}/judge.json", "w"), ensure_ascii=False, indent=1)
+    print(f"A-layer: {a_metrics}\nB-layer: {b_metrics}")
+    cov = {"coverage": -1}
+    _write_report(AGENT_MODEL, len(insts), cov, log_summary, probe_res, a_metrics, b_metrics)
+    print(f"보고서: {os.path.normpath(REPORT)}")
+
+
 def _write_report(model, n, cov, logs, probe_res, a, b):
     L = [f"# 파일럿 결과 v1 — {model}, {n} instance × 4 persona\n",
-         f"- pairwise coverage: {cov['coverage']:.0%}",
+         f"- pairwise coverage: " + (f"{cov['coverage']:.0%}" if cov.get("coverage", -1) >= 0 else "(judge-only 재실행)"),
          f"- 로그: {len(logs)}벌 " + (f"(렌더링 롤백 평균 {sum(v['violations_rolled_back'] for v in logs.values())}건)"
                                     if next(iter(logs.values()))['violations_rolled_back'] >= 0 else "(렌더링 생략)"),
          "\n## Oracle probe (로그→persona 축 복원률)\n"]

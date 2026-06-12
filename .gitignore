@@ -216,7 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-src/trigger_bench/data/
 
 # macOS / JetBrains
 .DS_Store

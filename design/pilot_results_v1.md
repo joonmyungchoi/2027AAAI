@@ -1,6 +1,6 @@
 # 파일럿 결과 v1 — oracle(dry), 20 instance × 4 persona
 
-- pairwise coverage: 40%
+- pairwise coverage: 42%
 - 로그: 8벌 (렌더링 생략)
 
 ## Oracle probe (로그→persona 축 복원률)

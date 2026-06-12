@@ -1,0 +1,82 @@
+{
+ "P_A_clean": {
+  "entries": 53,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "lead": 20,
+   "frequency": 21,
+   "depth": 5,
+   "familiarity": 7
+  }
+ },
+ "P_A_noise": {
+  "entries": 70,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "lead": 20,
+   "frequency": 21,
+   "depth": 5,
+   "familiarity": 7
+  }
+ },
+ "P_B_clean": {
+  "entries": 71,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "frequency": 21,
+   "lead": 20,
+   "depth": 23,
+   "familiarity": 7
+  }
+ },
+ "P_B_noise": {
+  "entries": 94,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "frequency": 21,
+   "lead": 20,
+   "depth": 23,
+   "familiarity": 7
+  }
+ },
+ "P_C_clean": {
+  "entries": 60,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "frequency": 28,
+   "lead": 20,
+   "depth": 5,
+   "familiarity": 7
+  }
+ },
+ "P_C_noise": {
+  "entries": 80,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "frequency": 28,
+   "lead": 20,
+   "depth": 5,
+   "familiarity": 7
+  }
+ },
+ "P_D_clean": {
+  "entries": 78,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "lead": 20,
+   "frequency": 28,
+   "depth": 23,
+   "familiarity": 7
+  }
+ },
+ "P_D_noise": {
+  "entries": 104,
+  "violations_rolled_back": -1,
+  "signal_by_axis": {
+   "lead": 20,
+   "frequency": 28,
+   "depth": 23,
+   "familiarity": 7
+  }
+ }
+}

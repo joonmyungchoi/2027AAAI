@@ -33,8 +33,19 @@ def client():
     return _client
 
 
+_RESPONSES_ONLY = set()  # chat completions 미지원 모델 캐시 (예: gpt-5.5-pro)
+
+
+def _responses_call(model, system, user):
+    """Responses API 경로 (gpt-5.5-pro 등 chat completions 미지원 모델용)."""
+    r = client().responses.create(model=model, instructions=system, input=user)
+    return r.output_text
+
+
 def chat(model, system, user, json_mode=True, retries=3):
-    """단일 chat 호출. 모델별 미지원 파라미터(temperature 등)는 자동 제거 재시도."""
+    """단일 호출. 미지원 파라미터 자동 제거, chat 미지원 모델은 Responses API로 폴백."""
+    if model in _RESPONSES_ONLY:
+        return _responses_call(model, system, user)
     kwargs = dict(model=model,
                   messages=[{"role": "system", "content": system},
                             {"role": "user", "content": user}],
@@ -48,6 +59,9 @@ def chat(model, system, user, json_mode=True, retries=3):
             return r.choices[0].message.content
         except Exception as e:
             msg = str(e)
+            if "not a chat model" in msg:
+                _RESPONSES_ONLY.add(model)
+                return _responses_call(model, system, user)
             if "temperature" in msg and "temperature" in kwargs:
                 kwargs.pop("temperature")
                 continue

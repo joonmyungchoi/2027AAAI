@@ -1,0 +1,70 @@
+[2026-05-04T08:36] (자택(서대문)) calendar.app_open morning_check
+[2026-05-04T12:31] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-04T13:17] (회사(판교)) calendar_geo.event_arrive early_min=43
+[2026-05-04T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-04T22:28] (자택(서대문)) game.app_open {}
+[2026-05-05T10:00] (자택(서대문)) system.ringer_mode mode=silent
+[2026-05-05T10:18] (자택(서대문)) game.app_open {}
+[2026-05-05T18:27] (자택(서대문)) messenger.msg_recv {}
+[2026-05-06T10:34] (자택(서대문)) news.article_read {}
+[2026-05-06T12:28] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-06T19:00] (강남역 카페) geo.place_visit
+[2026-05-07T08:41] (자택(서대문)) calendar.app_open morning_check
+[2026-05-07T18:12] (강남역 카페) calendar_geo.event_arrive early_min=48
+[2026-05-08T09:04] (자택(서대문)) messenger.msg_recv {}
+[2026-05-08T12:11] (자택(서대문)) messenger.msg_recv {}
+[2026-05-08T12:28] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-08T17:54] (자택(서대문)) game.app_open {}
+[2026-05-08T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-08T23:06] (자택(서대문)) youtube.video_play {}
+[2026-05-09T16:08] (자택(서대문)) youtube.video_play {}
+[2026-05-09T20:19] (자택(서대문)) news.article_read {}
+[2026-05-09T20:31] (자택(서대문)) shopping.app_open {}
+[2026-05-10T08:10] (자택(서대문)) calendar.app_open morning_check
+[2026-05-10T12:35] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-10T12:53] (자택(서대문)) shopping.app_open {}
+[2026-05-10T13:00] (헬스장(역삼)) calendar_geo.event_arrive early_min=60
+[2026-05-10T19:00] (회사(판교)) geo.place_visit
+[2026-05-11T10:00] (자택(서대문)) system.ringer_mode mode=silent
+[2026-05-11T20:49] (자택(서대문)) youtube.video_play {}
+[2026-05-12T12:50] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-12T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-12T22:19] (자택(서대문)) shopping.app_open {}
+[2026-05-13T08:32] (자택(서대문)) calendar.app_open morning_check
+[2026-05-13T18:16] (헬스장(역삼)) calendar_geo.event_arrive early_min=44
+[2026-05-14T12:48] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-14T19:00] (회사(판교)) geo.place_visit
+[2026-05-16T08:19] (자택(서대문)) calendar.app_open morning_check
+[2026-05-16T12:36] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-16T13:02] (헬스장(역삼)) calendar_geo.event_arrive early_min=58
+[2026-05-16T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-17T10:00] (자택(서대문)) system.ringer_mode mode=silent
+[2026-05-18T12:25] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-18T19:00] (회사(판교)) geo.place_visit
+[2026-05-18T23:44] (자택(서대문)) messenger.msg_recv {}
+[2026-05-19T08:50] (자택(서대문)) calendar.app_open morning_check
+[2026-05-19T13:03] (서울역) calendar_geo.event_arrive early_min=57
+[2026-05-20T12:40] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-20T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-22T08:20] (자택(서대문)) calendar.app_open morning_check
+[2026-05-22T12:51] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-22T13:07] (서울역) calendar_geo.event_arrive early_min=53
+[2026-05-22T19:00] (회사(판교)) geo.place_visit
+[2026-05-23T10:00] (자택(서대문)) system.ringer_mode mode=silent
+[2026-05-23T20:24] (자택(서대문)) messenger.msg_recv {}
+[2026-05-24T12:50] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-24T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-25T08:42] (자택(서대문)) calendar.app_open morning_check
+[2026-05-25T13:14] (강남역 카페) calendar_geo.event_arrive early_min=46
+[2026-05-26T12:51] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-26T19:00] (강남역 카페) geo.place_visit
+[2026-05-28T08:03] (자택(서대문)) calendar.app_open morning_check
+[2026-05-28T12:07] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-28T16:00] (강남역 카페) calendar_geo.event_arrive early_min=60
+[2026-05-28T21:00] (자택(서대문)) system.dnd_on until=07:00
+[2026-05-29T10:00] (자택(서대문)) system.ringer_mode mode=silent
+[2026-05-30T12:15] (자택(서대문)) weather.notif_dismiss kind=update;dwell_s=2
+[2026-05-30T19:00] (헬스장(역삼)) geo.place_visit
+[2026-05-31T08:46] (자택(서대문)) calendar.app_open morning_check
+[2026-05-31T16:15] (자택(서대문)) game.app_open {}
+[2026-05-31T18:16] (회사(판교)) calendar_geo.event_arrive early_min=44

@@ -1,0 +1,5730 @@
+{
+ "C001/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1025,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C001/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1025,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C001/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1025,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C001/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1025,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C002/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C002/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C002/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C002/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C003/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "도착예정 17:05 vs 약속 17:00"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C003/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "도착예정 17:05 vs 약속 17:00"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C003/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "도착예정 17:05 vs 약속 17:00"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C003/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "도착예정 17:05 vs 약속 17:00"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C004/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C004/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C004/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C004/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C005/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:00 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C005/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:00 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C005/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:00 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C005/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:00 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C006/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C006/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C006/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C006/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C007/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "즉시 출발(지각 10분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C007/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "즉시 출발(지각 10분 위험)",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C007/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 업데이트",
+     "출발 16:40",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C007/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 업데이트",
+     "출발 16:40",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 995,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1000,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C008/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "출발 16:25",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단"
+    ]
+   }
+  }
+ ],
+ "C008/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:25",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C008/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:25",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단"
+    ]
+   }
+  }
+ ],
+ "C008/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "출발 16:25",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  }
+ ],
+ "C009/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "출발 16:25",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C009/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:25",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C009/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:25",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C009/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "출발 16:25",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C010/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 10분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C010/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 10분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "우산",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C010/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 10분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C010/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 10분 위험)",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "우산",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C011/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 955,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 16:55 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C011/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:45",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 955,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 16:50 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C011/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:45",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 955,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 16:50 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C011/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 935,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_rain 업데이트",
+     "출발 15:45",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 955,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 16:50 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C012/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "즉시 출발(지각 5분 위험)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C012/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "즉시 출발(지각 5분 위험)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C012/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "즉시 출발(지각 5분 위험)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C012/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "즉시 출발(지각 5분 위험)"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C013/P_A": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C013/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C013/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C013/P_D": [
+  {
+   "time": 900,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 915,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 15:50",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 940,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 15분 위험)",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "도착예정 17:10 vs 약속 17:00",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "도착예정 17:10 vs 약속 17:10",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C014/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "출발 16:05",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C014/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "출발 16:05",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C014/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "출발 16:05",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C014/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 965,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "cp_move 변경공지",
+     "출발 16:05",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C015/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1010,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1015,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C015/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1010,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1015,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C015/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1010,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1015,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C015/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:35"
+    ]
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:45"
+    ]
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "transit_delay 갱신",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1010,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1015,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_rain 갱신",
+     "도착예정 17:10 vs 약속 17:10",
+     "우산",
+     "경로/수단(익숙도 해제)"
+    ]
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C016/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:30",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C016/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:30",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C016/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:30",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "C016/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "약속명/시각",
+     "출발 16:20",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 950,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate",
+     "voice"
+    ],
+    "content": [
+     "cp_delay 변경공지",
+     "출발 16:30",
+     "경로/수단",
+     "출구"
+    ]
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 970,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "fire",
+    "modality": [
+     "popup",
+     "vibrate"
+    ],
+    "content": [
+     "weather_severe 변경공지",
+     "즉시 출발(지각 5분 위험)",
+     "경로/수단",
+     "출구",
+     "우산"
+    ]
+   }
+  },
+  {
+   "time": 980,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N001/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N001/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N001/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N001/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N002/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N002/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N002/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N002/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N003/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N003/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N003/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N003/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N004/P_A": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N004/P_B": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N004/P_C": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ],
+ "N004/P_D": [
+  {
+   "time": 930,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 945,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 960,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 975,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 990,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1005,
+   "action": {
+    "decision": "silent"
+   }
+  },
+  {
+   "time": 1020,
+   "action": {
+    "decision": "silent"
+   }
+  }
+ ]
+}

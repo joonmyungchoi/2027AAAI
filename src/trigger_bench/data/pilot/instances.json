@@ -1,0 +1,641 @@
+[
+ {
+  "iid": "C001",
+  "transport": "근거리도보",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 950,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 1020,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "통화",
+    "dur": 25
+   },
+   {
+    "time": 1025,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C002",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 935,
+    "kind": "weather_severe",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C003",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 945,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "운전",
+    "dur": 25
+   },
+   {
+    "time": 950,
+    "kind": "cp_move",
+    "d_appt": 0,
+    "d_travel": 15,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C004",
+  "transport": "KTX",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 935,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "운전",
+    "dur": 25
+   },
+   {
+    "time": 965,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C005",
+  "transport": "근거리도보",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 995,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "운전",
+    "dur": 25
+   },
+   {
+    "time": 1000,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C006",
+  "transport": "지하철",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 970,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "운전",
+    "dur": 25
+   },
+   {
+    "time": 975,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 1005,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C007",
+  "transport": "근거리도보",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 975,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 980,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 995,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "통화",
+    "dur": 25
+   },
+   {
+    "time": 1000,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C008",
+  "transport": "근거리도보",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 970,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 975,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 1020,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C009",
+  "transport": "근거리도보",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 970,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 975,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C010",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 935,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "통화",
+    "dur": 25
+   },
+   {
+    "time": 940,
+    "kind": "weather_severe",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 960,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C011",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 935,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 955,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "통화",
+    "dur": 25
+   },
+   {
+    "time": 960,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C012",
+  "transport": "지하철",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 965,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 970,
+    "kind": "cp_move",
+    "d_appt": 0,
+    "d_travel": 15,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 990,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C013",
+  "transport": "KTX",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 940,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "운전",
+    "dur": 25
+   },
+   {
+    "time": 945,
+    "kind": "weather_severe",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 965,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 970,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C014",
+  "transport": "지하철",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 960,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 965,
+    "kind": "cp_move",
+    "d_appt": 0,
+    "d_travel": 15,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 970,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 990,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C015",
+  "transport": "근거리도보",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 970,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 990,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 1010,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 1015,
+    "kind": "weather_rain",
+    "d_appt": 0,
+    "d_travel": 10,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "C016",
+  "transport": "지하철",
+  "familiar": false,
+  "appt": 1020,
+  "has_appt": true,
+  "noop_kind": "",
+  "events": [
+   {
+    "time": 950,
+    "kind": "cp_delay",
+    "d_appt": 10,
+    "d_travel": 0,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 970,
+    "kind": "state",
+    "d_appt": 0,
+    "d_travel": 0,
+    "forced": false,
+    "state": "회의",
+    "dur": 25
+   },
+   {
+    "time": 975,
+    "kind": "weather_severe",
+    "d_appt": 0,
+    "d_travel": 20,
+    "forced": true,
+    "state": "",
+    "dur": 0
+   },
+   {
+    "time": 980,
+    "kind": "transit_delay",
+    "d_appt": 0,
+    "d_travel": 5,
+    "forced": false,
+    "state": "",
+    "dur": 0
+   }
+  ],
+  "dest": "서울역"
+ },
+ {
+  "iid": "N001",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": false,
+  "noop_kind": "오전완료",
+  "events": [],
+  "dest": "서울역"
+ },
+ {
+  "iid": "N002",
+  "transport": "KTX",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": false,
+  "noop_kind": "오전완료",
+  "events": [],
+  "dest": "서울역"
+ },
+ {
+  "iid": "N003",
+  "transport": "근거리도보",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": false,
+  "noop_kind": "오전완료",
+  "events": [],
+  "dest": "서울역"
+ },
+ {
+  "iid": "N004",
+  "transport": "지하철",
+  "familiar": true,
+  "appt": 1020,
+  "has_appt": false,
+  "noop_kind": "약속없음",
+  "events": [],
+  "dest": "서울역"
+ }
+]

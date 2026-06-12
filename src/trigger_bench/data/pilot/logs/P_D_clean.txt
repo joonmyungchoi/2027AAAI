@@ -1,0 +1,78 @@
+[2026-05-04T08:35] (자택(서대문)) calendar.app_open morning_check
+[2026-05-04T12:49] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-04T16:07] (서울역) calendar_geo.event_arrive early_min=53
+[2026-05-04T18:59] (자택(서대문)) system.notif_center_open
+[2026-05-05T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-05T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-05T10:05] (자택(서대문)) system.ringer_mode mode=sound+vibrate
+[2026-05-06T12:21] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-06T18:34] (자택(서대문)) system.notif_center_open
+[2026-05-06T19:00] (강남역 카페) geo.place_visit
+[2026-05-07T08:48] (자택(서대문)) calendar.app_open morning_check
+[2026-05-07T18:17] (서울역) calendar_geo.event_arrive early_min=43
+[2026-05-08T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-08T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-08T12:14] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-08T18:08] (자택(서대문)) system.notif_center_open
+[2026-05-10T08:26] (자택(서대문)) calendar.app_open morning_check
+[2026-05-10T12:34] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-10T16:20] (회사(판교)) calendar_geo.event_arrive early_min=40
+[2026-05-10T18:31] (자택(서대문)) system.notif_center_open
+[2026-05-10T19:00] (회사(판교)) geo.place_visit
+[2026-05-11T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-11T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-11T10:05] (자택(서대문)) system.ringer_mode mode=sound+vibrate
+[2026-05-12T12:08] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-12T18:44] (자택(서대문)) system.notif_center_open
+[2026-05-13T08:05] (자택(서대문)) calendar.app_open morning_check
+[2026-05-13T18:19] (회사(판교)) calendar_geo.event_arrive early_min=41
+[2026-05-14T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-14T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-14T12:49] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-14T18:52] (자택(서대문)) system.notif_center_open
+[2026-05-14T19:00] (강남역 카페) geo.place_visit
+[2026-05-16T08:20] (자택(서대문)) calendar.app_open morning_check
+[2026-05-16T12:49] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-16T16:15] (서울역) calendar_geo.event_arrive early_min=45
+[2026-05-16T18:57] (자택(서대문)) system.notif_center_open
+[2026-05-17T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-17T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-17T10:05] (자택(서대문)) system.ringer_mode mode=sound+vibrate
+[2026-05-18T12:43] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-18T18:03] (자택(서대문)) system.notif_center_open
+[2026-05-18T19:00] (강남역 카페) geo.place_visit
+[2026-05-19T08:28] (자택(서대문)) calendar.app_open morning_check
+[2026-05-19T16:00] (강남역 카페) calendar_geo.event_arrive early_min=60
+[2026-05-20T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-20T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-20T12:57] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-20T18:15] (자택(서대문)) system.notif_center_open
+[2026-05-22T08:18] (자택(서대문)) calendar.app_open morning_check
+[2026-05-22T12:08] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-22T16:12] (회사(판교)) calendar_geo.event_arrive early_min=48
+[2026-05-22T18:16] (자택(서대문)) system.notif_center_open
+[2026-05-22T19:00] (회사(판교)) geo.place_visit
+[2026-05-23T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-23T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-23T10:05] (자택(서대문)) system.ringer_mode mode=sound+vibrate
+[2026-05-24T12:24] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-24T18:06] (자택(서대문)) system.notif_center_open
+[2026-05-25T08:40] (자택(서대문)) calendar.app_open morning_check
+[2026-05-25T13:15] (강남역 카페) calendar_geo.event_arrive early_min=45
+[2026-05-26T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-26T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-26T12:27] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-26T18:15] (자택(서대문)) system.notif_center_open
+[2026-05-26T19:00] (회사(판교)) geo.place_visit
+[2026-05-28T08:21] (자택(서대문)) calendar.app_open morning_check
+[2026-05-28T12:27] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-28T16:06] (서울역) calendar_geo.event_arrive early_min=54
+[2026-05-28T18:53] (자택(서대문)) system.notif_center_open
+[2026-05-29T09:00] (자택(서대문)) weather.app_open forecast_view
+[2026-05-29T10:00] (자택(서대문)) maps.route_search dest=신규장소;depth=exit+alt_route
+[2026-05-29T10:05] (자택(서대문)) system.ringer_mode mode=sound+vibrate
+[2026-05-30T12:00] (자택(서대문)) weather.notif_tap kind=update;dwell_s=12
+[2026-05-30T18:07] (자택(서대문)) system.notif_center_open
+[2026-05-30T19:00] (헬스장(역삼)) geo.place_visit
+[2026-05-31T08:30] (자택(서대문)) calendar.app_open morning_check
+[2026-05-31T13:07] (서울역) calendar_geo.event_arrive early_min=53
