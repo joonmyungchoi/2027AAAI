@@ -1,0 +1,212 @@
+{
+ "gpt-5.5": {
+  "axis_accuracy": {
+   "frequency": 1.0,
+   "depth": 1.0,
+   "lead": 1.0
+  },
+  "detail": {
+   "P_A_clean": {
+    "pred": {
+     "frequency": "low",
+     "depth": "weak",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_A_noise": {
+    "pred": {
+     "frequency": "low",
+     "depth": "weak",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_B_clean": {
+    "pred": {
+     "frequency": "low",
+     "depth": "strong",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_B_noise": {
+    "pred": {
+     "frequency": "low",
+     "depth": "strong",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_C_clean": {
+    "pred": {
+     "frequency": "high",
+     "depth": "weak",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_C_noise": {
+    "pred": {
+     "frequency": "high",
+     "depth": "weak",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_D_clean": {
+    "pred": {
+     "frequency": "high",
+     "depth": "strong",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_D_noise": {
+    "pred": {
+     "frequency": "high",
+     "depth": "strong",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   }
+  }
+ },
+ "gpt-5-mini": {
+  "axis_accuracy": {
+   "frequency": 1.0,
+   "depth": 1.0,
+   "lead": 1.0
+  },
+  "detail": {
+   "P_A_clean": {
+    "pred": {
+     "frequency": "low",
+     "depth": "weak",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_A_noise": {
+    "pred": {
+     "frequency": "low",
+     "depth": "weak",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_B_clean": {
+    "pred": {
+     "frequency": "low",
+     "depth": "strong",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_B_noise": {
+    "pred": {
+     "frequency": "low",
+     "depth": "strong",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_C_clean": {
+    "pred": {
+     "frequency": "high",
+     "depth": "weak",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_C_noise": {
+    "pred": {
+     "frequency": "high",
+     "depth": "weak",
+     "lead": "late"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_D_clean": {
+    "pred": {
+     "frequency": "high",
+     "depth": "strong",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   },
+   "P_D_noise": {
+    "pred": {
+     "frequency": "high",
+     "depth": "strong",
+     "lead": "early"
+    },
+    "hit": {
+     "frequency": true,
+     "depth": true,
+     "lead": true
+    }
+   }
+  }
+ }
+}

@@ -30,16 +30,24 @@ Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, sim
 
 **Touch only what you must. Clean up only your own mess.**
 
+When editing existing code:
+- Don't "improve" adjacent code, comments, or formatting.
 - Don't refactor things that aren't broken.
 - Match existing style, even if you'd do it differently.
 - If you notice unrelated dead code, mention it - don't delete it.
+
+When your changes create orphans:
 - Remove imports/variables/functions that YOUR changes made unused.
 - Don't remove pre-existing dead code unless asked.
 
 The test: Every changed line should trace directly to the user's request.
 
+## 4. Goal-Driven Execution
+
 **Define success criteria. Loop until verified.**
 
+Transform tasks into verifiable goals:
+- "Add validation" → "Write tests for invalid inputs, then make them pass"
 - "Fix the bug" → "Write a test that reproduces it, then make it pass"
 - "Refactor X" → "Ensure tests pass before and after"
 
@@ -68,9 +76,12 @@ When the user writes in Korean, your output is also Korean:
 
 When creating a new file:
 - TypeScript/JavaScript: `// 사용자 인증 상태를 관리하는 Context Provider`
+- Python: `# KIS API 호출을 비동기로 래핑하는 클라이언트`
+- SQL: `-- 일별 집계 결과를 저장하는 머티리얼라이즈드 뷰`
 - Place it directly under required directives (`'use client'`, `'use server'`, shebang).
 - Skip config files (`*.config.ts`, `package.json`, etc.).
 
+Why: agents read files selectively, not whole codebases. A one-line Korean header gives instant context so the next session (human or agent) can navigate without re-reading the entire file.
 
 ## 7. Plan + Checklist + Context Notes
 
@@ -119,3 +130,4 @@ This is the step LLMs skip most often after "run tests". They guess from error k
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+

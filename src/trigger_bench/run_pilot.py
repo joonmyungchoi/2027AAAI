@@ -90,6 +90,8 @@ def main():
             sys.stdout.write(f"\r[4/5] runs {len(raw)}/{len(jobs)}")
     print()
     json.dump(raw, open(f"{DATA}/raw_results.json", "w"), ensure_ascii=False, indent=1, default=str)
+    # raw 출처 기록 — judge-only 재실행 시 보고서 오라벨 방지 (pilot_analysis_v1 §4)
+    json.dump({"agent_model": model_name}, open(f"{DATA}/run_meta.json", "w"), ensure_ascii=False)
 
     # 5) 채점 A + B
     inst_by_id = {i.iid: i for i in insts}
@@ -116,7 +118,9 @@ def _judge_only():
     """1~4단계 산출물(data/pilot/)을 로드해 judge+보고서만 재실행."""
     from core import Instance
     from judge import aggregate_judge, judge_run
-    from llm import AGENT_MODEL
+    meta_path = f"{DATA}/run_meta.json"
+    agent_label = (json.load(open(meta_path))["agent_model"] if os.path.exists(meta_path)
+                   else "출처미상(run_meta.json 없음 — 구버전 raw)")
     insts = [Instance.from_dict(d) for d in json.load(open(f"{DATA}/instances.json"))]
     inst_by_id = {i.iid: i for i in insts}
     raw = json.load(open(f"{DATA}/raw_results.json"))
@@ -125,18 +129,33 @@ def _judge_only():
 
     rows = [score_run(inst_by_id[k.split("/")[0]], k.split("/")[1], v) for k, v in raw.items()]
     a_metrics = aggregate(rows)
-    judge_rows = []
-    for n_done, (k, v) in enumerate(raw.items(), 1):
+
+    # run 단위 병렬 judge + 부분 저장(judge_partial.json)으로 중단 시 재개 가능
+    import threading
+    part_path = f"{DATA}/judge_partial.json"
+    done = json.load(open(part_path)) if os.path.exists(part_path) else {}
+    if done:
+        print(f"[judge] 부분 결과 {len(done)}/{len(raw)}건 재사용")
+    lock = threading.Lock()
+
+    def _j(k):
         iid, pid = k.split("/")
-        judge_rows.append(judge_run(inst_by_id[iid], pid, v))
-        sys.stdout.write(f"\r[judge] {n_done}/{len(raw)}")
-    print()
+        res = judge_run(inst_by_id[iid], pid, raw[k])
+        with lock:
+            done[k] = res
+            json.dump(done, open(part_path, "w"), ensure_ascii=False)
+            print(f"[judge] {len(done)}/{len(raw)}", flush=True)
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(_j, [k for k in raw if k not in done]))
+    judge_rows = [done[k] for k in raw]
     b_metrics = aggregate_judge(judge_rows)
     json.dump([r for rows_ in judge_rows for r in rows_],
               open(f"{DATA}/judge.json", "w"), ensure_ascii=False, indent=1)
+    os.remove(part_path)  # 완료 후 부분 캐시 제거 — 다음 실행이 stale 결과를 재사용하지 않게
     print(f"A-layer: {a_metrics}\nB-layer: {b_metrics}")
     cov = {"coverage": -1}
-    _write_report(AGENT_MODEL, len(insts), cov, log_summary, probe_res, a_metrics, b_metrics)
+    _write_report(agent_label, len(insts), cov, log_summary, probe_res, a_metrics, b_metrics)
     print(f"보고서: {os.path.normpath(REPORT)}")
 
 

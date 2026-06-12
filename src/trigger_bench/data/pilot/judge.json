@@ -1,0 +1,1194 @@
+[
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소(cp_delay 변경공지, 출발 16:45)를 정확히 포함하며 이전 알림과 모순 없음"
+ },
+ {
+  "time": 1025,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 3요소를 포함하며, 17:10은 직전 출발 16:45+이동 25분과 일치하고 이전 알림과 모순 없음"
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "강한 풍부도에 맞게 popup·vibrate·voice를 사용했고, 기대 요소 2개가 정확하며 수치·이력 모순이 없습니다."
+ },
+ {
+  "time": 1025,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup/vibrate만 사용했고, 기대 3요소를 모두 포함하며 16:45 출발+25분=17:10으로 이전 알림과도 일관됨"
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소인 변경공지와 출발 16:45를 담았으며 이전 이력이 없어 모순 없음"
+ },
+ {
+  "time": 1025,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중에도 popup은 가용 visual 채널의 최소 알림이고, 기대 요소 3개와 17:10 산출이 이전 출발 16:45+25분 및 비 상황과 일치하며 이전 알림과 모순 없다."
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고 기대 내용 2요소가 정확하며 수치·이력 모순이 없습니다."
+ },
+ {
+  "time": 1025,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup/vibrate를 모두 쓰고, 기대 3요소와 수치·이력(16:45+25분=17:10)이 일치함"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고, 기대 요소(약속명/시각·출발 15:50)만 포함하며 이전 알림과 모순이 없습니다."
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 모달리티에 맞고, 기대 요소와 수치 불일치가 없으며 날씨 변경 공지로 이전 출발 안내 변화도 드러남"
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고 기대된 3개 내용 요소와 수치가 일치하며 이전 알림이 없어 모순 없음"
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 채널 선호에 맞고, 기대 요소를 모두 포함하며 수치 불일치나 이전 알림과의 모순이 없다."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 visual/sound/vibe를 모두 활용하고, 기대된 약속명/시각 및 출발 15:50만 포함해 개인화 수준과 사실값에 부합합니다."
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup·vibrate·voice를 풍부하게 쓰고 기대 3요소를 모두 포함했으며 수치 불일치가 없고, 호우경보 변경과 즉시 출발로 이전 출발 안내 갱신이 드러남"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 내용(약속명/시각, 출발 15:50)과 수치가 일치하며 이전 알림이 없어 모순 없음"
+ },
+ {
+  "time": 950,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe) 밖이라 부적합하지만, 내용은 기대 요소와 일치하고 15:50 출발+75분=17:05로 이전 알림과 모순 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "진동+음성은 운전 중 가용 채널을 풍부하게 쓰고, 기대된 약속/시각 및 출발 15:50 2요소로 수치·이력 모순이 없습니다."
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동+음성을 모두 사용했고, 변경공지와 17:05 도착/17:00 약속 2요소가 15:50+75분 및 직전 출발 알림과 일관됨"
+ },
+ {
+  "time": 945,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe) 밖이라 부적합하지만, 내용은 기대 요소와 일치하고 수치·이력 모순은 없음"
+ },
+ {
+  "time": 950,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound/vibe)·약한 풍부도에 맞지 않지만, 내용은 기대 요소와 일치하고 15:50+75분=17:05로 이전 알림과 모순 없음"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고 기대 내용 2요소가 정확하며 이전 알림이 없어 모순도 없습니다."
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동+음성(소리) 두 채널을 쓰고, 기대 2요소와 15:50+75분=17:05/약속 17:00이 맞아 이전 알림과도 모순 없음."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 양식은 맞지만 약한 깊이(핵심 1요소) 대비 약속/출발/경로 3요소로 과다하며 수치 모순과 이전 이력은 없음"
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "진동+음성은 운전 중 가용 채널을 풍부하게 쓴 것이지만, 강 선호의 2~3개 요소보다 4개를 담아 과다하며 수치와 이력 모순은 없습니다."
+ },
+ {
+  "time": 935,
+  "modality_fit": 0,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound/vibe) 밖이고 약한 선호 대비 과하며, content도 핵심 1요소 선호 대비 3요소로 과다; 수치 불일치와 이전 알림 모순은 없음"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했고 기대 콘텐츠 요소와 출발 15:50이 맞으며 이전 알림이 없어 모순 없음."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고 기대 요소(약속명/시각, 출발 16:35)를 포함하며 수치와 이전 이력 모순이 없습니다."
+ },
+ {
+  "time": 1000,
+  "modality_fit": 0,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 sound/vibe 및 약한 popup 선호에 부적합하고 3요소는 과다; 비와 16:35+25분=17:00은 맞으며 이전 알림과 모순 없음"
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 시각·진동·음성 채널을 풍부하게 사용했고, 기대된 약속명/시각과 출발 16:35만 포함해 내용·수치·순서 모두 적합함"
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동·음성 채널을 풍부하게 쓰고, 기대 3요소가 모두 있으며 수치와 이전 출발 16:35→도착 17:00 흐름도 일관됨"
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 풍부도에 맞고, 기대 핵심 요소(약속명/시각·출발 16:35)를 포함하며 수치와 이력 모순이 없습니다."
+ },
+ {
+  "time": 1000,
+  "modality_fit": 0,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe) 밖이고 약한 깊이에는 3요소가 과다하지만, 17:00 도착/약속 및 우천 내용은 사실·이전 출발 16:35와 모순 없음"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했고 기대 요소와 출발 시각이 일치하며 이전 알림이 없습니다."
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동·음성 채널을 모두 쓰고, 기대된 비 갱신·17:00 도착/약속·우산 3요소가 사실 및 이전 출발 16:35와 모순 없이 제시됨"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 modality는 적합하지만 약한 깊이(핵심 1요소) 대비 3요소를 담아 과다하고, 수치/이력 모순은 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe) 및 약한 최소 알림 선호에 맞지 않지만, 내용은 기대 3요소와 이전 변경 흐름에 부합하고 도구값과 수치 충돌은 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice/vibrate는 가용 sound/vibe를 풍부하게 쓴 편이고 수치·이력 문제는 없지만, 강도 기준 2~3요소보다 콘텐츠 4요소로 과다함"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동+음성 조합으로 풍부하고, 기대 요소를 모두 포함하며 수치 충돌 없이 이전 출발 안내 변경 사유도 드러남"
+ },
+ {
+  "time": 970,
+  "modality_fit": 0,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널/약한 선호에 맞지 않고, 약한 깊이 대비 3요소로 과다; 수치 및 이력 모순은 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe)에 없고, 콘텐츠는 기대 요소와 일치하나 15분 지각 수치는 도구 사실값에 없으며 지연 갱신으로 이전 출발 변경은 설명됨"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했지만 내용은 강 선호의 2~3요소를 넘는 4요소라 과다이며, 수치 불일치나 이력 모순은 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "진동+음성(소리)으로 운전 중 가용 채널을 풍부하게 쓰고 기대 요소를 모두 포함하며, 도구 사실값과 충돌하는 수치가 없고 지연 갱신으로 즉시 출발 변경이 드러남"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 모달리티는 맞지만, 약 선호는 핵심 1요소인데 콘텐츠가 3요소로 과다합니다; 수치와 이력 모순은 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소를 정확히 포함하며 도구 수치와 충돌 없고 변경 공지로 이전 출발 16:35에서 16:45로 바뀐 점이 드러남"
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 가용 채널·약한 선호에 맞고, 기대 요소를 정확히 포함하며 수치 불일치 없이 비 갱신으로 이전 16:45 출발 알림 이후 즉시 출발 변경이 드러남"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했고 기대 요소를 모두 포함하며 수치 불일치나 이전 알림과의 모순이 없음"
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup+vibrate를 모두 쓰고 기대 내용이 적절하며, 도구 사실과 어긋나는 수치가 없고 비 갱신도 드러나 직전 알림과 모순 없음."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 약 선호에 맞지만 약 선호는 핵심 1요소만 기대되는데 출발·경로까지 포함해 내용이 과다함; 수치와 이력 모순은 없음"
+ },
+ {
+  "time": 980,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소(업데이트·출발 16:40·경로/수단)를 충족하며 수치 불일치 없이 이전 16:45 대비 업데이트로 해석 가능함"
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 가용·선호에 맞지만 약한 깊이(핵심 1요소) 대비 3요소라 과다하며, 수치와 이전 흐름은 일관됨"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 내에서 popup·vibrate·voice를 풍부하게 사용했고 기대 콘텐츠를 모두 포함하며 수치와 이력 모순도 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용했고 기대 변경공지·새 출발시각·경로·출구를 포함하며 수치 모순 없이 이전 16:35에서 16:45 변경이 드러남"
+ },
+ {
+  "time": 980,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용했고 기대 요소·16:40 수치가 맞으며 이전 16:45에서 교통 업데이트로 변경됨이 드러남"
+ },
+ {
+  "time": 1000,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup/vibrate를 모두 사용했고, 비 갱신·도착/약속 17:10·경로·출구·우산 내용이 사실값 및 이전 흐름과 모순 없음"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소 3개가 모두 포함되며 출발 16:35가 주어진 사실과 충돌하지 않고 이전 알림도 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup 단일 채널로 약한 선호와 가용 채널에 맞고, 기대 요소를 모두 포함하며, 도구값과 불일치 없고 이전 16:35에서 비 갱신으로 출발 변경 맥락이 드러남"
+ },
+ {
+  "time": 1020,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소를 모두 포함하며, 16:25 출발+45분=17:10으로 수치와 이전 흐름에 모순이 없다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup+vibrate는 가용 채널에 맞지만, 내용은 강 선호의 2~3요소보다 5개로 과다하며 수치와 이력은 문제없음"
+ },
+ {
+  "time": 1020,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup·vibrate·voice는 가용 채널을 풍부하게 쓰지만, 내용은 강 기준 2~3요소를 넘어 5개라 과다하며 수치와 직전 이력에는 모순이 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 약한 풍부도와 가용 채널에 맞지만, 약한 깊이는 핵심 1요소만 기대되는데 3요소라 과다함; 수치 모순과 이전 이력 없음."
+ },
+ {
+  "time": 1020,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 modality는 맞고 출발 16:25+45분=17:10으로 수치·이전 알림과 모순은 없지만, 정도 약은 핵심 1요소만 기대되는데 3개 요소를 담아 과다함"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup/vibrate/voice는 가용 채널을 풍부하게 써 적합하나, 내용은 강 선호의 2~3요소를 넘어 4요소로 과다하며 수치·이력 모순은 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 visual/vibe를 모두 쓰고 기대 요소를 모두 포함하며 도구 사실과 충돌 없고, 비 갱신과 16:25 출발로 이전 16:35에서의 변경 맥락도 드러남"
+ },
+ {
+  "time": 1020,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용했고 기대 내용 전부 포함, 16:25+45분=17:10 등 수치 모순 없으며 지연 갱신으로 변경도 드러남"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용하고 기대 요소(약속명/시각, 출발 16:35, 경로/수단)를 포함하며 수치와 이력 모순이 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고, 기대 요소와 비·16:25 출발 정보가 맞으며 비 갱신으로 이전 알림 대비 변경 맥락도 드러남"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup+vibrate는 가용 채널을 풍부하게 써 적절하나, 내용은 5개 요소로 persona 기대 2~3요소보다 과다하며 수치·이력 문제는 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 가용 visual 채널과 약한 선호에 맞고, 기대 요소를 모두 포함하며 수치 모순이나 이전 알림 충돌이 없음"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했고 기대 콘텐츠와 출발시각이 일치하며 이전 알림이 없어 모순이 없습니다."
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "회의 중 가용한 popup+vibrate를 모두 쓰고, 비 갱신·16:25 출발·경로/수단·출구·우산 등 기대 요소와 사실값 및 이전 대비 변경 맥락이 맞습니다."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소(약속명/시각, 출발 15:50)만 포함하며 수치·이력 모순이 없음"
+ },
+ {
+  "time": 940,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대된 호우경보 변경·즉시 출발(10분 지각 위험)·우산 요소를 모두 포함하며 수치와 이력상 모순이 없습니다."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "popup 단독은 약 선호에 맞고 기대 요소도 모두 포함하며 이전 지각 10분과 모순 없지만, 16:00+이동 100분이면 도착은 17:40이라 17:10은 불일치."
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup+vibrate를 사용했고, 강한 깊이에 맞게 기대된 약속명/시각과 출발 15:50 두 요소를 포함하며 이전 알림도 없다."
+ },
+ {
+  "time": 940,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup+vibrate를 모두 사용했고 기대 3요소를 담았으며 수치·사실 충돌 없이 호우경보 변경으로 즉시 출발 필요성이 드러남"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup+vibrate는 가용 채널에 맞고 수치·이전 10분 지각 흐름도 일치하지만, 내용 4개는 강 선호의 2~3요소 기준보다 과다함"
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 시각 popup만 사용했고 기대 핵심 요소(약속명/시각, 출발 15:50)를 포함하며 수치·이력 모순이 없음"
+ },
+ {
+  "time": 940,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 약한 선호·가용 visual에 맞지만, 약한 깊이는 핵심 1요소인데 변경/출발/우산 3요소라 과다; 수치 모순 없고 변경공지로 이전 안내 갱신은 드러남"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "popup은 통화 중 visual 채널과 약 선호에 맞고 기대 요소도 포함했지만, 현재 960+KTX 100분 기준 ETA는 17:40이라 17:10 수치가 불일치; 이전 알림과 모순은 없음"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고 기대된 2개 내용 요소와 출발 15:50이 일치하며 이전 알림이 없어 모순 없음"
+ },
+ {
+  "time": 940,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup+vibrate를 모두 쓰고 기대 3요소와 10분 위험 수치가 맞으며, 호우경보 변경에 따른 즉시 출발 갱신으로 이전 알림과 모순 없음."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup/vibrate와 기대 내용·이전 10분 지각 흐름은 맞지만, 현시각 16:00+이동 100분이면 ETA가 17:40이라 17:10 표기는 불일치."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소인 약속명/시각과 출발 15:50을 포함하며 이전 알림도 없어 모순이 없습니다."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup 단독은 약한 선호·가용 채널에 맞지만 핵심 1요소 선호 대비 3요소라 과다하며, 수치와 직전 알림에는 모순이 없다."
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 visual/sound/vibe를 모두 활용했고, 기대된 약속/출발 15:45/우산 요소를 적절히 포함하며 이전 알림이 없어 모순도 없습니다."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup+vibrate를 모두 쓰고 기대 3요소를 포함하며, 수치·우산 내용이 사실/이전 알림과 모순되지 않고 변경 항목도 드러남"
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고, 기대 콘텐츠(약속명/시각·15:45 출발·우산)를 포함하며 사실값/이전 알림과 모순 없음"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 약 선호와 가용 채널에 맞지만, 핵심 1요소 선호 대비 변경공지·도착/약속·우산 3요소로 과다하며 수치와 이전 알림에는 모순 없음"
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고, 기대 요소 2개를 포함하며, 수치와 이력 모순이 없습니다."
+ },
+ {
+  "time": 935,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 쓰고 기대 요소를 모두 포함하며 도구 사실과 충돌하는 수치가 없고 비 업데이트로 이전 출발시각 변경도 자연스럽게 설명됨"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "통화 중 가용한 popup+vibrate를 모두 쓰고 기대 3요소를 포함하며, 15:45 출발+65분=16:50로 수치가 맞고 변경공지·우산 내용도 이전 알림과 모순 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소(약속명/시각, 출발 16:20)를 포함하며 이전 알림이 없어 모순 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "회의 중 가용 visual에 popup만 사용해 약한 선호에 맞고, 이동 변경과 즉시 출발/5분 지각 위험만 담아 이전 16:20 출발 알림 대비 변경도 드러납니다."
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "popup은 약한 선호에 맞고 기대 콘텐츠·갱신 흐름은 맞지만, 시각 990(16:30)+이동 65분이면 ETA 17:10 수치가 도구값과 불일치"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널인 팝업+진동을 모두 사용했고 기대 요소 2개를 포함하며 출발 시각도 기준과 일치, 이전 알림 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 popup/vibrate를 모두 사용했고 기대 요소 2개를 정확히 포함하며, 수치와 이전 16:20 출발 안내 대비 변경 공지가 일관됩니다."
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "가용 visual/vibe를 모두 쓰고 기대 3요소는 충족하지만, 현재 990(16:30)+이동 65분이면 도착 17:35라 17:10은 사실값과 불일치하며 이전 지연 갱신과는 모순 없음"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 핵심 요소(약속명/시각, 출발 16:20)를 포함하며 수치 모순이나 이전 알림 충돌이 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "회의 중 popup만 사용했고 기대된 이동 변경+즉시 출발 안내를 포함하며 수치·이전 알림과 모순 없이 변경을 드러냄."
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "popup은 가용 채널/약한 풍부도와 기대 콘텐츠에 맞고 이전 업데이트와도 이어지지만, 990(16:30)+이동 65분이면 도착은 17:35라 17:10 수치가 사실값과 불일치."
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 visual/sound/vibe를 모두 활용했고, 기대된 약속명/시각과 출발 16:20 요소가 포함되며 수치 모순이나 이전 알림 충돌이 없습니다."
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup/vibrate를 모두 사용했고 기대된 변경공지+즉시출발 2요소와 5분 지각 위험이 맞으며, 직전 출발 16:20에서 변경된 점도 드러납니다."
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "가용 visual/vibe를 모두 쓰고 기대 3요소와 갱신 흐름은 맞지만, 990(16:30)+이동 65분이면 ETA는 17:35라 17:10과 불일치."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소가 모두 포함되며 수치와 이력 모순이 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound,vibe) 및 약한 선호와 맞지 않지만, 기대 3요소를 모두 포함하고 수치 불일치 없으며 변경공지로 이전 안내와의 맥락을 드러냄"
+ },
+ {
+  "time": 965,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 약한 선호의 최소 팝업 방식과 맞지 않지만, 내용은 기대 3요소와 17:10/17:00 수치에 부합하고 이전 지각 위험 알림과 모순 없음."
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고 기대 요소를 모두 포함하며, 수치 불일치 없이 cp_delay 변경으로 약속 17:10 변경이 드러남"
+ },
+ {
+  "time": 940,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "진동+음성은 운전 중 가용 채널을 풍부하게 쓰지만 강 선호 2~3요소 대비 콘텐츠 4개로 과다; 수치·이력 모순은 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "vibrate+voice는 가용 sound/vibe에 맞고 변경공지로 이전과 모순 없으며 수치 충돌도 없지만, 내용 5개는 선호한 2~3요소 대비 과다함"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동+음성(소리) 조합이고 기대 내용 요소를 포함하며, 수치·이전 알림과 모순 없이 transit_delay 갱신 변화가 드러남"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 popup/vibrate/voice를 풍부하게 사용했고 기대 요소를 모두 포함하며, 수치와 이전 transit_delay 이후 cp_delay 변경 맥락도 일관됨"
+ },
+ {
+  "time": 940,
+  "modality_fit": 0,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound/vibe)과 맞지 않고 약 선호 대비 3요소 콘텐츠는 과다; 수치 모순은 없고 이전 알림 없음."
+ },
+ {
+  "time": 945,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 채널(sound/vibe)과 약한 풍부도 선호에 맞지 않지만, 내용은 기대 요소와 일치하고 수치 불일치나 이전 알림과의 모순은 없음"
+ },
+ {
+  "time": 965,
+  "modality_fit": 0,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "voice는 가용 sound/vibe·약한 popup 선호와 맞지 않고, 내용 요소는 기대와 일치하나 16:05+이동100분이면 17:45라 17:10 수치가 불일치; 지연 갱신이라 이전과 모순은 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup 단독이라 약한 선호에 맞고, 기대 요소를 모두 포함하며, 수치가 도구 사실과 충돌하지 않고 이전 17:00 약속이 cp_delay로 17:10으로 바뀐 흐름과도 일관된다."
+ },
+ {
+  "time": 915,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했고 기대 요소와 출발 15:50이 일치하며 이전 알림 이력이 없어 모순 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "운전 중 가용한 진동+음성을 사용했고, 기대 요소를 모두 포함하며, 수치 불일치 없고 호우 변경 공지가 드러남"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 1,
+  "reason": "진동+음성은 운전 중 가용 채널을 풍부하게 쓰고 기대 요소도 맞지만, 16:05+이동 100분은 17:45라 도착예정 17:10은 사실값과 불일치하며 갱신 표시는 이전 알림과 모순 없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 쓰고 기대 요소를 모두 포함했으며, 17:10 수치와 cp_delay로 약속 시간이 17:10으로 바뀐 흐름도 이력과 일관됨"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 모달리티는 맞지만, 약한 깊이는 핵심 1요소여야 하는데 3요소를 담아 과다하며 수치·이력 모순은 없음"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소를 정확히 포함하며 출발 16:05 수치가 사실과 맞고 이전 16:20 대비 변경공지로 일관됨"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup+진동은 가용 채널과 강한 풍부도에 맞지만 콘텐츠가 4개로 선호한 2~3개보다 과다하며, 16:05는 현 시각과 일치하고 이전 알림은 없음"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup은 가용 visual 채널의 최소 알림이고, 기대 요소가 정확히 포함되며 16:05는 시각 965와 일치하고 이전 알림이 없음"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup/vibrate/voice는 가용 채널을 풍부하게 써 적합하지만, 내용은 강 선호의 2~3요소를 넘어 4개라 과다하며 수치·이력 모순은 없음"
+ },
+ {
+  "time": 965,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "회의 중 가용한 visual/vibe를 모두 쓰고, 기대된 변경공지·16:05 출발·경로/수단·출구를 포함하며 이전 16:20 출발 알림 대비 변경 알림으로 일관됨"
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 핵심 요소(약속명/시각, 출발 16:35)를 포함하며 수치와 이전 이력도 문제없음"
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고, 기대 요소(cp_delay 변경공지·출발 16:45)를 포함하며, 수치 충돌 없고 이전 출발 16:35에서 변경됨을 드러냄"
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 선호에 맞고 기대 요소가 모두 있으며, 수치 충돌 없고 이전 출발 안내와의 변경도 지연 갱신으로 드러남"
+ },
+ {
+  "time": 1015,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 0,
+  "reason": "popup·기대 콘텐츠는 맞지만, 1015분(16:55)+이동 45분이면 도착 17:40이라 17:10 도착 수치가 맞지 않고 직전 지각 5분 위험과도 설명 없이 모순됩니다."
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용했고 기대 내용 2요소가 정확하며 수치·이력 모순 없음"
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용하고 기대 3요소를 모두 포함하며 수치 모순 없고 이전 출발 16:45 대비 교통지연 갱신으로 즉시 출발 변경이 드러남"
+ },
+ {
+  "time": 1015,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 0,
+  "seq_consistent": 0,
+  "reason": "popup+vibrate는 가용 채널에 맞지만, 내용은 2~3개 기대 대비 4개로 과다하고 45분 이동/현재시각상 17:10 정시도착은 맞지 않으며 직전 지각 5분 위험 해소 설명도 없다."
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소(cp_delay 변경공지, 출발 16:45)를 충족하며 수치 모순과 이전 알림 충돌이 없습니다."
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 modality는 맞지만 약한 깊이의 핵심 1요소 선호에 비해 3개 요소가 과다하고, 수치·이전 갱신과의 모순은 없음"
+ },
+ {
+  "time": 1015,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 0,
+  "reason": "popup과 기대 요소는 맞지만, 현 시각 1015에 이동 45분이면 17:10 도착 수치가 맞지 않고 직전 5분 지각 위험에서 정시 도착으로 바뀐 설명이 없다."
+ },
+ {
+  "time": 960,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 시각·소리·진동 채널을 풍부하게 사용했고, 기대된 약속명/시각과 출발 16:35만 포함해 사실 및 이전 이력과도 모순이 없습니다."
+ },
+ {
+  "time": 970,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 풍부하게 사용했고 기대 요소인 지연 변경공지와 새 출발 16:45를 포함하며, 이전 16:35 대비 변경 알림으로도 일관됨"
+ },
+ {
+  "time": 990,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널 3종을 풍부하게 사용했고 기대 3요소와 수치가 맞으며, 지연 갱신으로 즉시 출발 변경도 드러나 이전 알림과 모순 없음"
+ },
+ {
+  "time": 1015,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 0,
+  "seq_consistent": 0,
+  "reason": "popup+vibrate는 가용 채널을 모두 쓰고 기대 내용도 포함하지만, 1015(16:55)+이동 45분이면 ETA가 17:10일 수 없고 직전 지각 5분 위험과도 변경 설명 없이 모순됨"
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소를 모두 포함하며 출발 시각도 기준과 일치하고 이전 알림이 없어 모순 없음"
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용했고 기대 요소를 모두 포함하며 수치가 기준과 맞고, 이전 출발 16:20에서 16:30으로 바뀐 변경 알림임이 드러남"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 가용 채널·약한 선호에 맞고, 기대 요소와 도구 사실에 맞으며 weather_severe 변경도 이전 알림 흐름과 모순 없음"
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 채널을 풍부하게 사용했지만 콘텐츠가 4개로 선호한 2~3요소보다 과다하며, 수치 불일치나 이전 알림 모순은 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup+vibrate는 가용 채널에 맞고 수치·변경 흐름은 문제없지만, 선호 깊이 2~3요소 대비 5요소를 담아 과다함"
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 약한 풍부도에는 맞지만, 약 선호는 핵심 1요소라 3개 요소는 과다; 수치 충돌 없고 이전 알림 없음"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "popup만 사용해 가용/선호에 맞고, 기대된 호우경보 변경·즉시 출발 5분 위험·경로/수단 요소를 충족하며 이전 알림과도 변경 맥락이 드러납니다."
+ },
+ {
+  "time": 945,
+  "modality_fit": 1,
+  "content_fit": 0,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "팝업·진동·음성은 가용 채널을 풍부하게 써 맞지만, 콘텐츠는 강 선호의 2~3요소를 넘어 4요소라 과다하며 수치·이력 모순은 없음."
+ },
+ {
+  "time": 950,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용 3채널을 모두 쓰고 기대된 변경공지·16:30 출발·경로·출구를 포함하며, 수치 모순 없고 이전 16:20에서 변경됨을 드러냄"
+ },
+ {
+  "time": 975,
+  "modality_fit": 1,
+  "content_fit": 1,
+  "grounded": 1,
+  "seq_consistent": 1,
+  "reason": "가용한 visual/vibe에 맞춰 popup·vibrate를 모두 쓰고, 호우경보 변경·즉시 출발/5분 지각 위험·경로/출구·우산 등 기대 요소가 도구값 및 이전 알림 흐름과 모순 없다."
+ }
+]

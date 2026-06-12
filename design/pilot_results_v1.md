@@ -1,10 +1,12 @@
-# 파일럿 결과 v1 — oracle(dry), 20 instance × 4 persona
+# 파일럿 결과 v1 — gpt-5.5, 20 instance × 4 persona
 
-- pairwise coverage: 42%
+- pairwise coverage: (judge-only 재실행)
 - 로그: 8벌 (렌더링 생략)
 
 ## Oracle probe (로그→persona 축 복원률)
 
+- gpt-5.5: {'frequency': 1.0, 'depth': 1.0, 'lead': 1.0}
+- gpt-5-mini: {'frequency': 1.0, 'depth': 1.0, 'lead': 1.0}
 
 ## A-layer (rule)
 
@@ -16,6 +18,14 @@
 - noop_violations: 0
 - ftr: 0.0
 - decisions: 708
+
+## B-layer (judge, fire별 binary 기준)
+
+- modality_fit: 0.906
+- content_fit: 0.772
+- grounded: 0.906
+- seq_consistent: 0.973
+- judged_fires: 149
 
 ## 해석 가이드
 - oracle 규칙 agent는 F1 1.0이 정상 (스모크로 검증됨).
