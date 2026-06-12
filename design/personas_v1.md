@@ -51,6 +51,12 @@
 - 형식은 handoff §7 그대로 — `time / app / location / event_type / params` + 숨김 `{label, category}`, noise 25%.
 - 신호 밀도 초기값: 축당 8~12 entry (로그 전체 4~6주 분량). oracle probe 결과로 조정.
 
+### 생성 방식: 하이브리드 (2026-06-12 확정)
+1. **프로그램 = 신호 계획(skeleton)** — 축별 신호 종류·개수·날짜·시간대 결정 (밀도 제어 + GT 정합 보장. `trigger_bench/logs.py`가 이 단계)
+2. **LLM = 표면 렌더링** — slot별 앱·장소·params 변주 + noise 이벤트 다양화 (현실감. Phase 2)
+3. **rule validator = 사후 검증** — 스키마·신호 보존 확인, 위반 entry만 재생성
+- 검증 2종 세트: oracle probe(복원률) + realism 통계(PersonalAlign Qscore류, 실데이터와 분포 비교).
+
 ---
 
 ## 3. 검증 게이트 (로그 생성 직후, design_review P0-2)
