@@ -108,7 +108,7 @@
   "axis_accuracy": {
    "frequency": 1.0,
    "depth": 1.0,
-   "lead": 1.0
+   "lead": 0.875
   },
   "detail": {
    "P_A_clean": {
@@ -139,12 +139,12 @@
     "pred": {
      "frequency": "low",
      "depth": "strong",
-     "lead": "late"
+     "lead": "early"
     },
     "hit": {
      "frequency": true,
      "depth": true,
-     "lead": true
+     "lead": false
     }
    },
    "P_B_noise": {

@@ -1,6 +1,6 @@
 [
  {
-  "time": "2026-05-04T12:18",
+  "time": "2026-05-04T12:05",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -9,31 +9,31 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-04T18:33",
+  "time": "2026-05-04T13:47",
+  "app": "maps",
+  "location": "자택(서대문)",
+  "event_type": "route_search",
+  "params": "dest=회사(판교);depth=basic",
+  "label": "signal",
+  "category": "lead"
+ },
+ {
+  "time": "2026-05-04T13:52",
+  "app": "calendar_geo",
+  "location": "회사(판교)",
+  "event_type": "event_arrive",
+  "params": "early_min=8",
+  "label": "signal",
+  "category": "lead"
+ },
+ {
+  "time": "2026-05-04T18:19",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
   "params": "",
   "label": "signal",
   "category": "frequency"
- },
- {
-  "time": "2026-05-04T18:45",
-  "app": "maps",
-  "location": "자택(서대문)",
-  "event_type": "route_search",
-  "params": "dest=헬스장(역삼);depth=basic",
-  "label": "signal",
-  "category": "lead"
- },
- {
-  "time": "2026-05-04T18:50",
-  "app": "calendar_geo",
-  "location": "헬스장(역삼)",
-  "event_type": "event_arrive",
-  "params": "early_min=10",
-  "label": "signal",
-  "category": "lead"
  },
  {
   "time": "2026-05-05T10:00",
@@ -45,7 +45,7 @@
   "category": "depth"
  },
  {
-  "time": "2026-05-06T12:42",
+  "time": "2026-05-06T12:57",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -54,7 +54,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-06T18:47",
+  "time": "2026-05-06T18:56",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -72,25 +72,25 @@
   "category": "familiarity"
  },
  {
-  "time": "2026-05-07T18:45",
+  "time": "2026-05-07T13:55",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=강남역 카페;depth=basic",
+  "params": "dest=헬스장(역삼);depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-07T18:50",
+  "time": "2026-05-07T14:00",
   "app": "calendar_geo",
-  "location": "강남역 카페",
+  "location": "헬스장(역삼)",
   "event_type": "event_arrive",
-  "params": "early_min=10",
+  "params": "early_min=0",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-08T12:19",
+  "time": "2026-05-08T12:00",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -99,7 +99,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-08T18:05",
+  "time": "2026-05-08T18:39",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -108,7 +108,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-10T12:11",
+  "time": "2026-05-10T12:37",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -117,7 +117,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-10T13:54",
+  "time": "2026-05-10T16:55",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
@@ -126,16 +126,16 @@
   "category": "lead"
  },
  {
-  "time": "2026-05-10T13:59",
+  "time": "2026-05-10T17:00",
   "app": "calendar_geo",
   "location": "강남역 카페",
   "event_type": "event_arrive",
-  "params": "early_min=1",
+  "params": "early_min=0",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-10T18:16",
+  "time": "2026-05-10T18:06",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -162,7 +162,7 @@
   "category": "depth"
  },
  {
-  "time": "2026-05-12T12:22",
+  "time": "2026-05-12T12:04",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -171,7 +171,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-12T18:01",
+  "time": "2026-05-12T18:35",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -180,7 +180,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-13T13:51",
+  "time": "2026-05-13T18:50",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
@@ -189,16 +189,16 @@
   "category": "lead"
  },
  {
-  "time": "2026-05-13T13:56",
+  "time": "2026-05-13T18:55",
   "app": "calendar_geo",
   "location": "회사(판교)",
   "event_type": "event_arrive",
-  "params": "early_min=4",
+  "params": "early_min=5",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-14T12:04",
+  "time": "2026-05-14T12:38",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -207,7 +207,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-14T18:08",
+  "time": "2026-05-14T18:56",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -218,14 +218,14 @@
  {
   "time": "2026-05-14T19:00",
   "app": "geo",
-  "location": "서울역",
+  "location": "강남역 카페",
   "event_type": "place_visit",
   "params": "",
   "label": "signal",
   "category": "familiarity"
  },
  {
-  "time": "2026-05-16T12:44",
+  "time": "2026-05-16T12:22",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -234,25 +234,25 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-16T13:51",
+  "time": "2026-05-16T16:46",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=회사(판교);depth=basic",
+  "params": "dest=서울역;depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-16T13:56",
+  "time": "2026-05-16T16:51",
   "app": "calendar_geo",
-  "location": "회사(판교)",
+  "location": "서울역",
   "event_type": "event_arrive",
-  "params": "early_min=4",
+  "params": "early_min=9",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-16T18:10",
+  "time": "2026-05-16T18:37",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -270,7 +270,7 @@
   "category": "depth"
  },
  {
-  "time": "2026-05-18T12:27",
+  "time": "2026-05-18T12:23",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -279,7 +279,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-18T18:52",
+  "time": "2026-05-18T18:47",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -290,32 +290,32 @@
  {
   "time": "2026-05-18T19:00",
   "app": "geo",
-  "location": "서울역",
+  "location": "강남역 카페",
   "event_type": "place_visit",
   "params": "",
   "label": "signal",
   "category": "familiarity"
  },
  {
-  "time": "2026-05-19T13:50",
+  "time": "2026-05-19T16:45",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=강남역 카페;depth=basic",
+  "params": "dest=서울역;depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-19T13:55",
+  "time": "2026-05-19T16:50",
   "app": "calendar_geo",
-  "location": "강남역 카페",
+  "location": "서울역",
   "event_type": "event_arrive",
-  "params": "early_min=5",
+  "params": "early_min=10",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-20T12:35",
+  "time": "2026-05-20T12:30",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -324,7 +324,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-20T18:37",
+  "time": "2026-05-20T18:51",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -333,7 +333,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-22T12:37",
+  "time": "2026-05-22T12:35",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -342,25 +342,25 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-22T16:51",
+  "time": "2026-05-22T16:55",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=헬스장(역삼);depth=basic",
+  "params": "dest=회사(판교);depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-22T16:56",
+  "time": "2026-05-22T17:00",
   "app": "calendar_geo",
-  "location": "헬스장(역삼)",
+  "location": "회사(판교)",
   "event_type": "event_arrive",
-  "params": "early_min=4",
+  "params": "early_min=0",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-22T18:25",
+  "time": "2026-05-22T18:29",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -371,7 +371,7 @@
  {
   "time": "2026-05-22T19:00",
   "app": "geo",
-  "location": "강남역 카페",
+  "location": "헬스장(역삼)",
   "event_type": "place_visit",
   "params": "",
   "label": "signal",
@@ -387,7 +387,7 @@
   "category": "depth"
  },
  {
-  "time": "2026-05-24T12:14",
+  "time": "2026-05-24T12:10",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -396,7 +396,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-24T18:59",
+  "time": "2026-05-24T18:32",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -409,21 +409,21 @@
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=서울역;depth=basic",
+  "params": "dest=회사(판교);depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
   "time": "2026-05-25T17:00",
   "app": "calendar_geo",
-  "location": "서울역",
+  "location": "회사(판교)",
   "event_type": "event_arrive",
   "params": "early_min=0",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-26T12:22",
+  "time": "2026-05-26T12:06",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -432,7 +432,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-26T18:37",
+  "time": "2026-05-26T18:03",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -443,14 +443,14 @@
  {
   "time": "2026-05-26T19:00",
   "app": "geo",
-  "location": "헬스장(역삼)",
+  "location": "강남역 카페",
   "event_type": "place_visit",
   "params": "",
   "label": "signal",
   "category": "familiarity"
  },
  {
-  "time": "2026-05-28T12:05",
+  "time": "2026-05-28T12:56",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -459,7 +459,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-28T13:46",
+  "time": "2026-05-28T13:47",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
@@ -468,16 +468,16 @@
   "category": "lead"
  },
  {
-  "time": "2026-05-28T13:51",
+  "time": "2026-05-28T13:52",
   "app": "calendar_geo",
   "location": "헬스장(역삼)",
   "event_type": "event_arrive",
-  "params": "early_min=9",
+  "params": "early_min=8",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-28T18:17",
+  "time": "2026-05-28T18:51",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -495,7 +495,7 @@
   "category": "depth"
  },
  {
-  "time": "2026-05-30T12:04",
+  "time": "2026-05-30T12:53",
   "app": "weather",
   "location": "자택(서대문)",
   "event_type": "notif_tap",
@@ -504,7 +504,7 @@
   "category": "frequency"
  },
  {
-  "time": "2026-05-30T18:28",
+  "time": "2026-05-30T18:51",
   "app": "system",
   "location": "자택(서대문)",
   "event_type": "notif_center_open",
@@ -515,27 +515,27 @@
  {
   "time": "2026-05-30T19:00",
   "app": "geo",
-  "location": "회사(판교)",
+  "location": "헬스장(역삼)",
   "event_type": "place_visit",
   "params": "",
   "label": "signal",
   "category": "familiarity"
  },
  {
-  "time": "2026-05-31T18:54",
+  "time": "2026-05-31T13:45",
   "app": "maps",
   "location": "자택(서대문)",
   "event_type": "route_search",
-  "params": "dest=회사(판교);depth=basic",
+  "params": "dest=강남역 카페;depth=basic",
   "label": "signal",
   "category": "lead"
  },
  {
-  "time": "2026-05-31T18:59",
+  "time": "2026-05-31T13:50",
   "app": "calendar_geo",
-  "location": "회사(판교)",
+  "location": "강남역 카페",
   "event_type": "event_arrive",
-  "params": "early_min=1",
+  "params": "early_min=10",
   "label": "signal",
   "category": "lead"
  }

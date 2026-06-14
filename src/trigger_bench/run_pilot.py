@@ -34,11 +34,13 @@ def main():
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--judge-only", action="store_true",
                     help="저장된 raw_results.json으로 5단계(judge)부터 재개")
+    ap.add_argument("--max-instances", type=int, default=0,
+                    help="judge-only에서 채점할 instance 수 제한 (core 우선 + noop 1, 0=전체). 예: 5 → 5×4persona=20 runs")
     args = ap.parse_args()
     os.makedirs(f"{DATA}/logs", exist_ok=True)
 
     if args.judge_only:
-        return _judge_only()
+        return _judge_only(args.max_instances, args.workers)
 
     # 1) instance + GT
     insts, cov = sample(n_core=args.n_core, n_noop=args.n_noop, seed=42)
@@ -114,7 +116,7 @@ def main():
     print(f"보고서: {os.path.normpath(REPORT)}")
 
 
-def _judge_only():
+def _judge_only(max_instances=0, workers=8):
     """1~4단계 산출물(data/pilot/)을 로드해 judge+보고서만 재실행."""
     from core import Instance
     from judge import aggregate_judge, judge_run
@@ -124,6 +126,11 @@ def _judge_only():
     insts = [Instance.from_dict(d) for d in json.load(open(f"{DATA}/instances.json"))]
     inst_by_id = {i.iid: i for i in insts}
     raw = json.load(open(f"{DATA}/raw_results.json"))
+    if max_instances:
+        keep = set([i.iid for i in insts if i.has_appt][:max(0, max_instances - 1)]
+                   + [i.iid for i in insts if not i.has_appt][:1])
+        raw = {k: v for k, v in raw.items() if k.split("/")[0] in keep}
+        print(f"[judge] subset {sorted(keep)} → {len(raw)} runs")
     probe_res = json.load(open(f"{DATA}/probe.json")) if os.path.exists(f"{DATA}/probe.json") else {}
     log_summary = json.load(open(f"{DATA}/log_summary.json"))
 
@@ -146,7 +153,7 @@ def _judge_only():
             json.dump(done, open(part_path, "w"), ensure_ascii=False)
             print(f"[judge] {len(done)}/{len(raw)}", flush=True)
 
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=workers) as ex:
         list(ex.map(_j, [k for k in raw if k not in done]))
     judge_rows = [done[k] for k in raw]
     b_metrics = aggregate_judge(judge_rows)
